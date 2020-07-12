@@ -11,7 +11,7 @@ module.exports = (base, projectName, record) => {
                 return;
             }
             records.forEach(function (record) {
-                console.log(record.getId());
+                console.log("Created record with ID = ", record.getId());
             });
         }
     );

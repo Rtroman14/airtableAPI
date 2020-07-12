@@ -12,7 +12,7 @@ module.exports = (base, id, record) => {
                 return;
             }
             records.forEach(function (record) {
-                console.log(record.get("Name"));
+                console.log("Updated", record.get("Name"), "record");
             });
         }
     );
